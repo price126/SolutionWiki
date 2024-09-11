@@ -1,0 +1,75 @@
+main {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+max-height: auto;
+overflow-y: visible;
+}
+
+.page_title {
+margin-top: 50px;
+display: flex;
+align-items: center;
+gap: 10px;
+margin-bottom: 60px;
+}
+
+.material-symbols-outlined{
+font-size: 50px;
+}
+
+#ranking_title{
+font-family: Jua;
+font-size: 50px;
+}
+
+.ranking_board {
+display: flex;
+flex-direction: column;
+gap: 20px;
+margin-bottom: 30px;
+border: 1px solid black;
+border-radius: 10px;
+padding: 10px;
+width: 80%;
+margin: 0 auto;
+font-family: Jua;
+font-size: 20px;
+}
+
+.ranking_header, .ranking_item {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+padding: 10px;
+}
+
+.ranking_header {
+font-weight: bold;
+border-bottom: 1px solid black;
+}
+
+.medal{
+width: 30px;
+}
+
+.ranking_item {
+border-bottom: 1px solid #ddd;
+}
+
+.ranking_item.last {
+border-bottom: none;
+}
+
+.ranking_header div, .ranking_item div {
+text-align: center;
+width: 20%;
+}
+
+#page_num{
+margin-top: 30px;
+margin-bottom: 20px;
+}

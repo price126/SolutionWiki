@@ -1,0 +1,95 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-height: auto;
+  overflow-y: visible;
+}
+
+.page_title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#my_page{
+  font-family: Jua;
+  font-size: 50px;
+}
+
+.material-symbols-outlined{
+  font-size: 80px;
+}
+
+.user_profile{
+  margin-top: 50px;
+  margin-bottom: 120px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.username{
+  font-family: Jua;
+  font-size: 80px;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+.my_recommendation{
+  width: 50%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #A3C6C4;
+  border-radius: 10px;
+  gap: 20px;
+}
+
+.recommendation_icon{
+  font-size: 30px;
+}
+
+.recommendation_title{
+  font-size: 30px;
+  font-family: jua;
+}
+
+.account_deletion{
+  margin-top: 90px;
+  width: 50%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #C2B4D6 ;
+  border-radius: 10px;
+  gap: 20px;
+}
+
+.account_deletion_icon{
+  font-size: 30px;
+}
+
+.deletion_text{
+  font-size: 30px;
+  font-family: jua;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+

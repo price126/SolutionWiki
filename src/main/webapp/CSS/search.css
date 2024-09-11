@@ -1,0 +1,211 @@
+@charset "UTF-8";
+* {
+    font-family: 'Jua', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+main {
+    position: relative;
+    clear: both;
+    background-color: #F3FAFC;
+    height: Calc(100vh - 50px);
+    width: 100%;
+    min-width: 1420px;
+    
+}
+#search_form_container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    z-index: 5;
+}
+
+.search_input {
+    flex: 1;
+    opacity: 0.5;
+}
+
+.search_input:focus {
+    opacity: 1;
+}
+
+#search_form {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    margin-top: 5%;
+}
+
+#search_form input[type="text"],
+#search_form button {
+    padding: 8px 12px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    height: 50px;
+    min-width: 1220px;
+    margin: 30px 200px 40px 200px;
+}
+
+header * {
+    color: #354649;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+header>span:first-child {
+    float: left;
+}
+
+header>span:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    padding-top: 21.33px;
+    float: right;
+    align-items: center;
+}
+
+input[name="log_out"] {
+    background-color: #354649;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+input[name="log_out"]:hover {
+    background-color: #5a6a6f;
+}
+
+#rank {
+    margin-right: 10px;
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+
+#request {
+    margin-right: 10px;
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+
+#log_in {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.left_align {
+    text-align: left;
+    margin-left: 300px;
+}
+
+.card_l {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    height: 250px;
+    gap: 24px;
+    border: 1px solid #ebeaec;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    padding: 24px;
+    margin-left: 300px;
+}
+
+.card_r {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    height: 250px;
+    gap: 24px;
+    border: 1px solid #ebeaec;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    padding: 24px;
+    margin-right: 300px;
+}
+
+.top {
+    font-weight: bold;
+    font-size: 16px
+}
+
+.bottom .name {
+    font-size: 15px bold;
+    color: #727174;
+}
+
+.wrap {
+    display: flex;
+    justify-content: row;
+    gap: 150px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    gap: 24px;
+    border: 1px solid #ebeaec;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    padding: 24px;
+    margin: 0 auto 48px;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
+.card-content {
+    display: flex;
+    width: 100%;
+}
+
+.card-content div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+#searchResults {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* 移대�� �ъ�댁�� 媛�寃⑹�� 議곗�� */
+}
+
+
+.bookmark-btn:hover {
+    background-color: #fbc02d;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
